@@ -1,0 +1,16 @@
+.about_root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_cont {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 80%;
+}
+
+.about_img {
+  width: 500px;
+  height: 500px;
+}

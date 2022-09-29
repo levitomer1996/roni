@@ -1,0 +1,47 @@
+.home_parallax {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../assets//horse.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_parallax_title {
+  color: white;
+  font-size: 70px;
+}
+.details {
+  font-size: 30px;
+  color: rgb(188, 188, 102);
+}
+.about_cont {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.about_para {
+  font-size: 25px;
+  color: #0b2239;
+}
+.makecontact_para {
+  font-size: 25px;
+  color: #0b2239;
+}
+.makecontact_cont {
+  background-color: #20364c4a;
+  width: 80%;
+}
+@media only screen and (max-width: 1000px) {
+  .about_cont {
+    display: flex;
+    flex-direction: column;
+  }
+}

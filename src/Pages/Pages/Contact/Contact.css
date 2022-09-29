@@ -1,0 +1,16 @@
+@media only screen and (min-width: 800px) {
+  .grid_i {
+    width: 20%;
+  }
+  .grid_i_btn {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .grid_i {
+    width: 20%;
+  }
+  .grid_i_btn {
+    width: 70%;
+  }
+}
